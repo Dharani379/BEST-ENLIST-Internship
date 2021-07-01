@@ -18,9 +18,6 @@ s
 >>> challenge =" i will win"
 >>> print(challenge[1:10])
 i will wi
->>> print(challenge[1:3)
-      
-SyntaxError: closing parenthesis ')' does not match opening parenthesis '['
 >>> print(challenge[1:3])
 i 
 >>> print(challenge[1:2])
@@ -38,13 +35,6 @@ IndexError: string index out of range
 >>> CHALLENGE = "I WILL WIN"
 >>> print(challenge.lower())
  i will win
->>> challenge = this is Dharani
-Traceback (most recent call last):
-  File "<pyshell#20>", line 1, in <module>
-    challenge = this is Dharani
-NameError: name 'this' is not defined
->>> challenge = thisis Dharani
-SyntaxError: invalid syntax
 >>> challenge = " this is Dharani"
 >>> print(challenge.upper())
  THIS IS DHARANI
@@ -89,14 +79,7 @@ Nanditha  shetty
 >>> print(x)
 Nanditha shety
 >>> #capitalize() func capitalizes thebfirst letter of a string while remaing to lower case
->>> text="don't trouble trouble until the trouble troubles you"
->>> x=text.find()
-Traceback (most recent call last):
-  File "<pyshell#57>", line 1, in <module>
-    x=text.find()
-TypeError: find() takes at least 1 argument (0 given)
->>> x=text.find(6))
-SyntaxError: unmatched ')'
+don't trouble trouble until the trouble troubles you"
 >>> x= text.find((6))
 Traceback (most recent call last):
   File "<pyshell#59>", line 1, in <module>
